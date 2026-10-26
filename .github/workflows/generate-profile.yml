@@ -1,0 +1,42 @@
+
+name: Generate profile graphics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/profile.json"
+      - "scripts/generate_profile.py"
+      - ".github/workflows/generate-profile.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate skill radar
+        run: python scripts/generate_profile.py
+
+      - name: Commit updated graphics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/skills.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Update generated skill radar"
+            git push
+          else
+            echo "No graphic changes needed."
+          fi
