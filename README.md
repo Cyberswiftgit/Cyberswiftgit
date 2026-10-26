@@ -9,13 +9,24 @@
 
 *Building projects, learning by shipping, and turning ideas into working software.*
 
+
+<p align="center">
+  <img src="assets/cyberswiftgit_dotted_reveal.svg"
+       width="500"
+       alt="Portrait assembling from animated dots">
+</p>
+
+
+
+
+
 <img src="assets/profile.svg" width="100%" alt="Animated developer terminal banner"/>
 
 </div>
 
 ---
 
-## `~/about`
+## `~/About`
 
 ```text
 USER       : Vedant Chodankar
@@ -26,7 +37,7 @@ PHILOSOPHY : Learn. Build. Test. Improve. Repeat.
 
 I'm a student developer exploring software engineering, AI, and creative technology. I enjoy turning ideas into practical projects and learning how things work by building them.
 
-## `~/toolbox`
+## `~/Toolbox`
 
 ![Python](https://img.shields.io/badge/Python-Learning-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-Fundamentals-A8B9CC?style=flat-square&logo=c&logoColor=black)
@@ -38,7 +49,7 @@ I'm a student developer exploring software engineering, AI, and creative technol
   <img src="assets/skills.svg" width="600" alt="Skill radar visualization"/>
 </p>
 
-## `~/selected-work`
+## `~/Current-work`
 
 ### A.R.I.A. — Desktop AI Assistant
 A Windows assistant project exploring AI conversations, voice interaction, and a futuristic desktop interface.
@@ -51,7 +62,7 @@ A web-based aim training project exploring target practice, crosshair customizat
 
 > These are project descriptions, not claims that every feature is complete. Add the actual repository links as you publish each project.
 
-## `~/github`
+## `~/Git stats`
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Cyberswiftgit&show_icons=true&theme=transparent&hide_border=true" alt="GitHub statistics"/>
@@ -61,7 +72,7 @@ A web-based aim training project exploring target practice, crosshair customizat
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cyberswiftgit&layout=compact&theme=transparent&hide_border=true" alt="Most used languages"/>
 </p>
 
-## `~/contributions`
+## `~/Contributions`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Cyberswiftgit/Cyberswiftgit/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake animation"/>
