@@ -6,6 +6,9 @@
 ### Developer · Builder · Problem Solver
 
 [![GitHub](https://img.shields.io/badge/GitHub-Cyberswiftgit-181717?style=for-the-badge&logo=github)](https://github.com/Cyberswiftgit)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vedant-chodankar-1549b0429/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vedantchodankar01@gmail.com)
+
 
 *Building projects, learning by shipping, and turning ideas into working software.*
 
