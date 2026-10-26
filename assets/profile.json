@@ -1,0 +1,49 @@
+
+{
+  "name": "Vedant Chodankar",
+  "username": "Cyberswiftgit",
+  "tagline": "Student Developer | AI and Software Projects",
+  "location": "Goa, India",
+  "skills": [
+    {
+      "name": "Python",
+      "level": 25,
+      "status": "Learning"
+    },
+    {
+      "name": "C",
+      "level": 35,
+      "status": "Learning"
+    },
+    {
+      "name": "Git and GitHub",
+      "level": 40,
+      "status": "Practicing"
+    },
+    {
+      "name": "Web Development",
+      "level": 30,
+      "status": "Building"
+    }
+  ],
+  "projects": [
+    {
+      "name": "A.R.I.A.",
+      "description": "A Windows desktop AI assistant with a futuristic interface.",
+      "repository": "",
+      "status": "In development"
+    },
+    {
+      "name": "WeatherGPT",
+      "description": "A conversational weather forecasting and climate information project.",
+      "repository": "",
+      "status": "Project concept"
+    },
+    {
+      "name": "Aim Trainer",
+      "description": "An FPS aim training website with practice modes and performance feedback.",
+      "repository": "",
+      "status": "In development"
+    }
+  ]
+}
