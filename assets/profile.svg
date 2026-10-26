@@ -1,1 +1,42 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071b20"/>
+      <stop offset="100%" stop-color="#101126"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ffc8"/>
+      <stop offset="100%" stop-color="#65a8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="240" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="898" height="238" rx="18" fill="none" stroke="#234c51"/>
+  <circle cx="25" cy="24" r="5" fill="#ff6b6b"/>
+  <circle cx="43" cy="24" r="5" fill="#ffd166"/>
+  <circle cx="61" cy="24" r="5" fill="#06d6a0"/>
+  <text x="85" y="29" font-family="monospace" font-size="12" fill="#8ba9b2">cyberswift@dev: ~</text>
+  <text x="45" y="85" font-family="monospace" font-size="16" fill="#00ffc8">$ whoami</text>
+  <text x="45" y="125" font-family="monospace" font-size="29" font-weight="bold" fill="#f2fbff">VEDANT CHODANKAR</text>
+  <text x="45" y="158" font-family="monospace" font-size="15" fill="#9bb9c5">Student developer | Building ideas into software</text>
+  <text x="45" y="198" font-family="monospace" font-size="14" fill="#00ffc8">[ LEARN ]</text>
+  <text x="170" y="198" font-family="monospace" font-size="14" fill="#65a8ff">[ BUILD ]</text>
+  <text x="285" y="198" font-family="monospace" font-size="14" fill="#d7a6ff">[ REPEAT ]</text>
+  <rect x="45" y="210" width="280" height="2" rx="1" fill="#234c51"/>
+  <rect x="45" y="210" width="80" height="2" rx="1" fill="url(#glow)">
+    <animate attributeName="x" values="45;245;45" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <g transform="translate(720 120)">
+    <circle r="64" fill="none" stroke="#16464c" stroke-width="1"/>
+    <circle r="49" fill="none" stroke="#00ffc8" stroke-width="1.5" stroke-dasharray="9 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="32" fill="#00ffc8" opacity="0.08"/>
+    <circle r="20" fill="none" stroke="#65a8ff" stroke-width="2">
+      <animate attributeName="r" values="17;25;17" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="5" fill="#00ffc8"/>
+  </g>
+</svg>
+
